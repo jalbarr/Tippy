@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		26B71BF1C445F412AA5E548B /* Pods_TippyUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DF2181A843421549A63F070 /* Pods_TippyUITests.framework */; };
+		7C43057B371CD81BD5C260B6 /* Pods_TippyTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71F1FAB48AC843E224441145 /* Pods_TippyTests.framework */; };
+		9E9D377F7EB19D4B60E06C5E /* Pods_Tippy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95AE564C60481F6186A46071 /* Pods_Tippy.framework */; };
 		C3AF246322023E82003EB2A7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3AF246222023E82003EB2A7 /* AppDelegate.swift */; };
 		C3AF246522023E82003EB2A7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3AF246422023E82003EB2A7 /* ViewController.swift */; };
 		C3AF246822023E82003EB2A7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C3AF246622023E82003EB2A7 /* Main.storyboard */; };
@@ -34,6 +37,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		13CCB18F31C9678495FE1CC7 /* Pods-TippyUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TippyUITests.debug.xcconfig"; path = "Target Support Files/Pods-TippyUITests/Pods-TippyUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		63310D88137DE4DE16BDD371 /* Pods-Tippy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tippy.debug.xcconfig"; path = "Target Support Files/Pods-Tippy/Pods-Tippy.debug.xcconfig"; sourceTree = "<group>"; };
+		684497B289FBCC5990EFB8E0 /* Pods-TippyTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TippyTests.release.xcconfig"; path = "Target Support Files/Pods-TippyTests/Pods-TippyTests.release.xcconfig"; sourceTree = "<group>"; };
+		71F1FAB48AC843E224441145 /* Pods_TippyTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TippyTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8DF2181A843421549A63F070 /* Pods_TippyUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TippyUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		95AE564C60481F6186A46071 /* Pods_Tippy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tippy.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A723CFE693EFBA70877040D0 /* Pods-TippyTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TippyTests.debug.xcconfig"; path = "Target Support Files/Pods-TippyTests/Pods-TippyTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C23B4E61957ADC51836B98ED /* Pods-Tippy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tippy.release.xcconfig"; path = "Target Support Files/Pods-Tippy/Pods-Tippy.release.xcconfig"; sourceTree = "<group>"; };
 		C3AF245F22023E82003EB2A7 /* Tippy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tippy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3AF246222023E82003EB2A7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C3AF246422023E82003EB2A7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +58,7 @@
 		C3AF247E22023E84003EB2A7 /* TippyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TippyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3AF248222023E84003EB2A7 /* TippyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TippyUITests.swift; sourceTree = "<group>"; };
 		C3AF248422023E84003EB2A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FECDA8628B5A049F8886CFCA /* Pods-TippyUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TippyUITests.release.xcconfig"; path = "Target Support Files/Pods-TippyUITests/Pods-TippyUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9E9D377F7EB19D4B60E06C5E /* Pods_Tippy.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7C43057B371CD81BD5C260B6 /* Pods_TippyTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +82,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				26B71BF1C445F412AA5E548B /* Pods_TippyUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7DD74D652148C40EAA1862D6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				63310D88137DE4DE16BDD371 /* Pods-Tippy.debug.xcconfig */,
+				C23B4E61957ADC51836B98ED /* Pods-Tippy.release.xcconfig */,
+				A723CFE693EFBA70877040D0 /* Pods-TippyTests.debug.xcconfig */,
+				684497B289FBCC5990EFB8E0 /* Pods-TippyTests.release.xcconfig */,
+				13CCB18F31C9678495FE1CC7 /* Pods-TippyUITests.debug.xcconfig */,
+				FECDA8628B5A049F8886CFCA /* Pods-TippyUITests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		909AEFBB1A9D8DFFA0027D79 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				95AE564C60481F6186A46071 /* Pods_Tippy.framework */,
+				71F1FAB48AC843E224441145 /* Pods_TippyTests.framework */,
+				8DF2181A843421549A63F070 /* Pods_TippyUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		C3AF245622023E82003EB2A7 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +120,8 @@
 				C3AF247622023E84003EB2A7 /* TippyTests */,
 				C3AF248122023E84003EB2A7 /* TippyUITests */,
 				C3AF246022023E82003EB2A7 /* Products */,
+				7DD74D652148C40EAA1862D6 /* Pods */,
+				909AEFBB1A9D8DFFA0027D79 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -132,6 +173,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C3AF248722023E84003EB2A7 /* Build configuration list for PBXNativeTarget "Tippy" */;
 			buildPhases = (
+				729A3DFC162B04712584A132 /* [CP] Check Pods Manifest.lock */,
 				C3AF245B22023E82003EB2A7 /* Sources */,
 				C3AF245C22023E82003EB2A7 /* Frameworks */,
 				C3AF245D22023E82003EB2A7 /* Resources */,
@@ -149,6 +191,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C3AF248A22023E84003EB2A7 /* Build configuration list for PBXNativeTarget "TippyTests" */;
 			buildPhases = (
+				BDA513C932450AC2BF385351 /* [CP] Check Pods Manifest.lock */,
 				C3AF246F22023E84003EB2A7 /* Sources */,
 				C3AF247022023E84003EB2A7 /* Frameworks */,
 				C3AF247122023E84003EB2A7 /* Resources */,
@@ -167,6 +210,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C3AF248D22023E84003EB2A7 /* Build configuration list for PBXNativeTarget "TippyUITests" */;
 			buildPhases = (
+				971BF02D2D94241BA6180902 /* [CP] Check Pods Manifest.lock */,
 				C3AF247A22023E84003EB2A7 /* Sources */,
 				C3AF247B22023E84003EB2A7 /* Frameworks */,
 				C3AF247C22023E84003EB2A7 /* Resources */,
@@ -250,6 +294,75 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		729A3DFC162B04712584A132 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Tippy-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		971BF02D2D94241BA6180902 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TippyUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BDA513C932450AC2BF385351 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TippyTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		C3AF245B22023E82003EB2A7 /* Sources */ = {
@@ -430,6 +543,7 @@
 		};
 		C3AF248822023E84003EB2A7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 63310D88137DE4DE16BDD371 /* Pods-Tippy.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -448,6 +562,7 @@
 		};
 		C3AF248922023E84003EB2A7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C23B4E61957ADC51836B98ED /* Pods-Tippy.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -466,6 +581,7 @@
 		};
 		C3AF248B22023E84003EB2A7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A723CFE693EFBA70877040D0 /* Pods-TippyTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -487,6 +603,7 @@
 		};
 		C3AF248C22023E84003EB2A7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 684497B289FBCC5990EFB8E0 /* Pods-TippyTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -508,6 +625,7 @@
 		};
 		C3AF248E22023E84003EB2A7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 13CCB18F31C9678495FE1CC7 /* Pods-TippyUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -528,6 +646,7 @@
 		};
 		C3AF248F22023E84003EB2A7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FECDA8628B5A049F8886CFCA /* Pods-TippyUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
